@@ -1,0 +1,70 @@
+{
+  "albums": [
+    {
+      "id": 1,
+      "title": "Yu-Gi-Oh",
+      "thumbnail": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06cb28af-a15c-45d3-b1b6-fcbc1910e0c3/dbwk3sn-1ad1083a-5b15-4f77-af59-66dc07024a73.jpg/v1/fill/w_1024,h_1496,q_75,strp/back_card_yugioh_hd_by_carlos123321_dbwk3sn-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xNDk2IiwicGF0aCI6IlwvZlwvMDZjYjI4YWYtYTE1Yy00NWQzLWIxYjYtZmNiYzE5MTBlMGMzXC9kYndrM3NuLTFhZDEwODNhLTViMTUtNGY3Ny1hZjU5LTY2ZGMwNzAyNGE3My5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.XJtjNGRr9iMvGwdgQrDXdM-Dvd3XyjoJv6YnObYQzq4",
+      "subAlbum": [
+        {
+          "id": 1,
+          "name": "Toon World",
+          "picture": "https://www.yugiohcardguide.com/images/db1/DB1-EN042.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Dark Magician Girl",
+          "picture": "https://www.yugiohcardguide.com/images/dpyg/DPYG-EN008.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Blue-Eyes Ultimate Dragon",
+          "picture": "https://www.yugiohcardguide.com/images/dpkb/DPKB-EN026.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Pokemon",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/3/3b/Pokemon_Trading_Card_Game_cardback.jpg",
+      "subAlbum": [
+        {
+          "id": 1,
+          "name": "Bulbasaur",
+          "picture": "https://tcgplayer-cdn.tcgplayer.com/product/42387_200w.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Porygon",
+          "picture": "https://shop.tcgplayer.com/pokemon/base-set/porygon"
+        },
+        {
+          "id": 3,
+          "name": "Ghastly",
+          "picture": "https://tcgplayer-cdn.tcgplayer.com/product/42394_200w.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Magic The Gathering",
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/51ASzCTLFtL._AC_SY450_.jpg",
+      "subAlbum": [
+        {
+          "id": 1,
+          "name": "Aesthetic Consultation",
+          "picture": "https://tcgplayer-cdn.tcgplayer.com/product/37818_200w.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Hagra Mauling // Hagra Broodpit",
+          "picture": "https://tcgplayer-cdn.tcgplayer.com/product/223259_200w.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Adventurers' Guildhouse",
+          "picture": "https://tcgplayer-cdn.tcgplayer.com/product/3787_200w.jpg"
+        }
+      ]
+    }
+  ]
+}
