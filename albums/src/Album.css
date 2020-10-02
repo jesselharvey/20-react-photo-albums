@@ -20,3 +20,12 @@
 h1 {
   text-align: center;
 }
+.zoomedImgContainer {
+  width: 100%;
+  height: 100%;
+}
+.zoomedImg {
+  width: 80%;
+  height: 80%;
+  
+}

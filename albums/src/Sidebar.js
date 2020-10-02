@@ -20,13 +20,15 @@ function Sidebar() {
   }, [])
   console.log(albums)
   return (
-    <div id="sidebar">
-      {albums.map((album) => (
-      <div className="sidebarItem">
-        <span>{album.title}</span>
+      
+      <div id="sidebar">
+        <Link to={"/"}><span>Album Home</span></Link>
+        {albums.map((album) => (
+        <div className="sidebarItem">
+         <Link to={`/albums/${album.id}`}><span>{album.title}</span></Link> 
+        </div>
+        ))}
       </div>
-      ))}
-    </div>
   )
 }
 
