@@ -14,11 +14,9 @@ function AlbumHome() {
       // console.log(resp.data)
       let albumsData = resp.data
       setAlbums(albumsData)
-
-
     })
   }, [])
-  console.log(albums)
+  // console.log(albums)
   return (
     <div>
       {albums.map(album => 

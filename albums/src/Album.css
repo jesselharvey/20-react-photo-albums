@@ -1,0 +1,22 @@
+.albumContainer {
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.multiImageContainer {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-evenly;
+}
+.singleImageContainer {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+.image {
+  width: 200px;
+  height: 250px;
+}
+h1 {
+  text-align: center;
+}
