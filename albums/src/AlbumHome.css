@@ -1,4 +1,22 @@
+#albumContainer {
+  display: flex;
+  flex-flow: wrap;
+}
+.album {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+  width: 25%;
+}
+.album > a > span {
+  font-size: 18px;
+  
+}
+.album > a {
+  margin: 5% 0 0;
+}
 .homeThumbnail {
-  width: 10%;
-  height: 10%;
+  width: 225px;
+  height: 300px;
+  border-radius: 4%;
 }

@@ -19,13 +19,16 @@ function AlbumHome() {
   // console.log(albums)
   return (
     <div>
-      {albums.map(album => 
-      <div>
-        <Link to={`/albums/${album.id}`}> <img className="homeThumbnail" src={album.thumbnail} /></Link>
-        <Link to={`/albums/${album.id}`}><span>{album.title}</span></Link>
-        </div> )}
-       {/* <img src={album.thumbnail}></img> */}
-      {/* <span>{albums.title}</span> */}
+      <h1>Albums</h1>
+      <div id="albumContainer">
+        {albums.map(album => 
+        <div className="album">
+          <Link to={`/albums/${album.id}`}> <img className="homeThumbnail" src={album.thumbnail} /></Link>
+          <Link to={`/albums/${album.id}`}><span>{album.title}</span></Link>
+          </div> )}
+        {/* <img src={album.thumbnail}></img> */}
+        {/* <span>{albums.title}</span> */}
+      </div>
     </div>
   )
 }

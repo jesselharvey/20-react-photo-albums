@@ -17,11 +17,7 @@ function Album() {
   const [album, setAlbum] = useState([])
   const [albumContent, setAlbumContent] = useState([])
 
-  const [imageZoom, setImageZoom] = useState(false)
-
-  let handleClick = () => {
-    setImageZoom(true)
-  }
+  const [zoomedImage, setZoomedImage] = useState(null)
 
   useEffect(() => {
     axios.get(`http://localhost:3000/albums/${id}`).then((resp) => {
@@ -32,17 +28,28 @@ function Album() {
       setAlbumContent(albumData)
     })
   }, [id])
-  console.log(album)
+  console.log(zoomedImage)
+
   return (
     <div>
-      <h1>{album.title }</h1>
+    {zoomedImage ? (
+    <div className="modal" onClick={() => setZoomedImage(null)}>
+      <h3>{zoomedImage.name}</h3>
+      <img className="zoomedImg" src={zoomedImage.picture} />
+    </div>
+    ) : null}
+
+      <div>
+      <h1>{album.title}</h1>
+      </div>
       <div className="albumContainer" >
+        
         <Sidebar />
       <div className="multiImageContainer">
         {albumContent.map((item) => (
-          <div className={(imageZoom ? "zoomedImgContainer" : "singleImageContainer")}>
-          <img className={(imageZoom ? "zoomedImg" : "image")} src={item.picture} onClick={handleClick}/>
-          <span>{item.name}</span>
+          <div className="singleImageContainer">
+            <img className="image" src={item.picture} onClick={() => setZoomedImage(item)}/>
+            <span>{item.name}</span>
           </div>
         ))}
         </div>
