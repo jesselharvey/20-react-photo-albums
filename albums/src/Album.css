@@ -11,11 +11,11 @@ h3 {
 }
 .albumContainer {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-evenly;
 }
 .multiImageContainer {
   display: flex;
+  flex-flow: wrap;
   flex-grow: 1;
   justify-content: space-evenly;
 }
@@ -24,6 +24,7 @@ h3 {
   flex-flow: column;
   align-items: center;
   width: 25%;
+  margin: 2.5% 0;
 }
 .image {
   width: 225px;
@@ -43,10 +44,11 @@ h3 {
   align-items: center;
   flex-flow: column;
   width: 100%;
-  min-height: 100%;
-  position: absolute;
+  height: 100%;
+  position: fixed;
   background: rgba(0, 0, 0, 0.8);
 }
 .zoomedImg {
   width: 25%;
+  border-radius: 4%;
 }

@@ -19,6 +19,41 @@
           "id": 3,
           "name": "Blue-Eyes Ultimate Dragon",
           "picture": "https://www.yugiohcardguide.com/images/dpkb/DPKB-EN026.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Pot of Greed",
+          "picture": "https://www.yugiohcardguide.com/images/bp01/BP01-EN034.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Injection Fairy Lily",
+          "picture": "https://www.yugiohcardguide.com/images/bp01/BP01-EN004.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Final Countdown",
+          "picture": "https://www.yugiohcardguide.com/images/dr1/DR1-253.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Kuriboh",
+          "picture": "https://www.yugiohcardguide.com/images/dlg1/DLG1-EN038.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Monster Reborn",
+          "picture": "https://www.yugiohcardguide.com/images/lcyw/LCYW-EN058.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Relinqished",
+          "picture": "https://www.yugiohcardguide.com/images/lcyw/LCYW-EN113.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Change of Heart",
+          "picture": "https://www.yugiohcardguide.com/images/lcyw/LCYW-EN124.jpg"
         }
       ]
     },
@@ -30,17 +65,37 @@
         {
           "id": 1,
           "name": "Bulbasaur",
-          "picture": "https://tcgplayer-cdn.tcgplayer.com/product/42387_200w.jpg"
+          "picture": "https://cdn.bulbagarden.net/upload/b/b2/BulbasaurBaseSet44.jpg"
         },
         {
           "id": 2,
           "name": "Magikarp",
-          "picture": "https://tcgplayer-cdn.tcgplayer.com/product/87035_200w.jpg"
+          "picture": "https://cdn.bulbagarden.net/upload/7/76/MagikarpBaseSet35.jpg"
         },
         {
           "id": 3,
           "name": "Ghastly",
-          "picture": "https://tcgplayer-cdn.tcgplayer.com/product/42394_200w.jpg"
+          "picture": "https://cdn.bulbagarden.net/upload/6/63/GastlyBaseSet50.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Clefairy",
+          "picture": "https://cdn.bulbagarden.net/upload/thumb/7/7f/ClefairyBaseSet5.jpg/360px-ClefairyBaseSet5.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Blastoise",
+          "picture": "https://cdn.bulbagarden.net/upload/thumb/a/a5/BlastoiseBaseSet2.jpg/400px-BlastoiseBaseSet2.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Alakazam",
+          "picture": "https://cdn.bulbagarden.net/upload/thumb/9/94/AlakazamBaseSet1.jpg/360px-AlakazamBaseSet1.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Hitmonchan",
+          "picture": "https://cdn.bulbagarden.net/upload/2/26/HitmonchanBaseSet7.jpg"
         }
       ]
     },
@@ -52,17 +107,104 @@
         {
           "id": 1,
           "name": "Aesthetic Consultation",
-          "picture": "https://tcgplayer-cdn.tcgplayer.com/product/37818_200w.jpg"
+          "picture": "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=74284&type=card"
         },
         {
           "id": 2,
-          "name": "Hagra Mauling // Hagra Broodpit",
-          "picture": "https://tcgplayer-cdn.tcgplayer.com/product/223259_200w.jpg"
+          "name": "Hagra Mauling",
+          "picture": "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=491741&type=card"
         },
         {
           "id": 3,
+          "name": "Hagra Broodpit",
+          "picture": "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=491742&type=card"
+        },
+        {
+          "id": 4,
           "name": "Adventurers' Guildhouse",
           "picture": "https://tcgplayer-cdn.tcgplayer.com/product/3787_200w.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Abominable Treefolk",
+          "picture": "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=464143&type=card"
+        },
+        {
+          "id": 6,
+          "name": "Swamp",
+          "picture": "https://gatherer.wizards.com/Handlers/Image.ashx?type=card&multiverseid=213620"
+        },
+        {
+          "id": 7,
+          "name": "Forest",
+          "picture": "https://gatherer.wizards.com/Handlers/Image.ashx?type=card&multiverseid=249724"
+        },
+        {
+          "id": 8,
+          "name": "Throne of Bone",
+          "picture": "https://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=3815&type=card"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Final Fantasy",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/b/b4/Final_Fantasy_CCG.jpg",
+      "subAlbum": [
+        {
+          "id": 1,
+          "name": "Cloud",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/1-182L_eg.jpg"
+        },
+        {
+          "id": 2,
+          "name": "Cid (II)",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/6-045H_eg.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Chocobo",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/11-050C_eg.jpg"
+        },
+        {
+          "id": 4,
+          "name": "Leon",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/6-063H_eg.jpg"
+        },
+        {
+          "id": 5,
+          "name": "Black Mage",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/4-079C_eg.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Yuffie",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/1-085R_eg.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Sephiroth",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/7-034L_eg.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Maria",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/1-083H_eg.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Cid Highwind",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/1-073C_eg.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Ninja",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/1-078C_eg.jpg"
+        },
+        {
+          "id": 11,
+          "name": "Squall",
+          "picture": "https://fftcg.cdn.sewest.net/images/cards/full/1-042R_eg.jpg"
         }
       ]
     }

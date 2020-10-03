@@ -39,17 +39,15 @@ function Album() {
     </div>
     ) : null}
 
-      <div>
       <h1>{album.title}</h1>
-      </div>
       <div className="albumContainer" >
         
         <Sidebar />
       <div className="multiImageContainer">
         {albumContent.map((item) => (
           <div className="singleImageContainer">
-            <img className="image" src={item.picture} onClick={() => setZoomedImage(item)}/>
-            <span>{item.name}</span>
+          <img className="image" src={item.picture} onClick={() => setZoomedImage(item)}/>
+          <span>{item.name}</span>
           </div>
         ))}
         </div>
