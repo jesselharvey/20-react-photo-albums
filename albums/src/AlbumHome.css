@@ -1,6 +1,7 @@
 #albumContainer {
   display: flex;
   flex-flow: wrap;
+  justify-content: center;
 }
 .album {
   display: flex;
